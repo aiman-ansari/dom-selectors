@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="CSS-blog.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+    <div class="heading">DOM Selectors</div>
+    <div class="heading">Introduction</div>
+    <span class="bold-words">DOM selectors</span> are used to select HTML element within a document using javascript<br>
+    There are 5 types of selectors
+    <ul>
+        <li>getElementsByTagName()</li>
+        <li>getElementsByClassName()</li>
+        <li>getElementById()</li>
+        <li>querySelector()</li>
+        <li>querySelectorAll()</li>
+    </ul>
+    To use these selectors we prefix those element with document object<br>
+    <div class="syntax"><ul>
+        <li>document.getElementsByTagName()</li>
+        <li>document.getElementsByClassName()</li>
+        <li>document.getElementById()</li>
+        <li>document.querySelector()</li>
+        <li>document.querySelectorAll()</li>
+    </ul></div>
+    
+    <div class="heading">getElementsByTagName</div>
+    This returns all the element that matches the specified Tag name<br>
+    <div class="bold-words">For example</div><br>
+    document.getElementsByTagName('h1') return all the elements that matches the tag name h1
+    <div class="heading">getElementsByClassName</div>
+    This method returns all the element that matches specified class name<br>
+    <div class="bold-words">For example</div>
+    document.getElementsByClassName('item') return all the elements that matches the class name item.
+
+    <div class="heading">getElementById</div>
+    In this selection of element depend on Id name . This returns only the first matched element while ignoring rest.<br>
+    <div class="bold-words">For example</div>
+    document.getElementsById('list-items') return specific element that matches the id name list-items.
+
+    <div class="heading">querySelector</div>
+    This return the first element that matches to specified CSS selector either class name or id names<br><br>
+    To access element which define as id <br>
+    document.querySelector('#id-name')<br><br>
+    To access element which define as class-name <br>
+    document.querySelector('.class-name')<br>
+    <div class="heading">querySelectorAll</div>
+    This return all the elements that matches the specified CSS selector in the document.<br>
+    It returns all elements having that id or class-name.<br>
+    These are some basic information of DOM selectors.     
+</div>
+</body>
+</html>
