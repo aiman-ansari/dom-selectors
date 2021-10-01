@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta+Malar:wght@500&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: 'Mukta Malar', sans-serif;
+}
+.container{
+    width: 70vw;
+    padding: 2rem 5rem;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.3rem;
+    padding:1rem;
+    font-weight: 500; 
+    /* background-color: blue; */
+}
+.bold-words{
+    /* font-size: 1.2rem; */
+    font-weight: bolder;
+}
+.heading{
+    margin: 1rem;
+    margin-left: 0%;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.syntax{
+    font-weight: 600;
+    background-color: rgb(252, 241, 224);
+    margin: 1rem;
+}
+.space{
+    margin-left: 5rem;
+}
+li{
+    height: 5vh;
+}
